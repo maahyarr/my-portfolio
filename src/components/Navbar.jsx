@@ -11,12 +11,12 @@ const navItems = [
   { name: "Contact", href: "#contact" },
 ];
 export default function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false);
+   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.screenY > 10);
+      setIsScrolled(window.scrollY > 10);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -35,7 +35,7 @@ export default function Navbar() {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> MAHYAR </span>{" "}
+            <span className="text-glow text-foreground"> PedroTech </span>{" "}
             Portfolio
           </span>
         </a>
