@@ -72,7 +72,7 @@ export default function Navbar() {
         
         <button 
           onClick={() => setIsMenuOpen((prev) => !prev)} 
-          className=" md:hidden p-2 text-foreground z-50 absolute left-[75%]" 
+          className=" md:hidden p-2 text-foreground z-50 absolute left-[72%]" 
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} 
         > 
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />} 
