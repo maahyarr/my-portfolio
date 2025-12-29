@@ -42,21 +42,22 @@ export default function Navbar() {
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5" 
       )} 
     > 
-    <ThemeToggle/>
+   
       <div className="container flex items-center justify-between"> 
+         
         <a 
           className="text-xl font-bold text-primary flex items-center" 
           href="#hero" 
           onClick={() => setIsMenuOpen(false)}
         > 
           <span className="relative z-10"> 
-            <span className="text-glow text-foreground"> PedroTech </span>{" "} 
+            <span className="text-glow text-foreground"> mahyarDev </span>{" "} 
             Portfolio 
           </span> 
         </a> 
 
         {/* desktop nav */} 
-        <div className="hidden md:flex space-x-8"> 
+        <div className="hidden md:flex space-x-8 mx-auto"> 
           {navItems.map((item, key) => ( 
             <a 
               key={key} 
@@ -71,7 +72,7 @@ export default function Navbar() {
         
         <button 
           onClick={() => setIsMenuOpen((prev) => !prev)} 
-          className="md:hidden p-2 text-foreground z-50 relative" 
+          className=" md:hidden p-2 text-foreground z-50 absolute left-[75%]" 
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"} 
         > 
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />} 
@@ -108,6 +109,7 @@ export default function Navbar() {
             </div> 
           </div>
         </div> 
+        <ThemeToggle/>
       </div> 
     </nav> 
   ); 

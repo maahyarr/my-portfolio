@@ -4,62 +4,62 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Digikala",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/download (1).png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["html", "CSS", "flex-grid","js"],
+    demoUrl: "https://maahyarr.github.io/digikala/",
+    githubUrl: "https://maahyarr.github.io/digikala/",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Oriflame",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/download (2).png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["tailwindcss", "js", "html"],
+    demoUrl: "https://maahyarr.github.io/oriflame/src/index.html",
+    githubUrl: "https://maahyarr.github.io/oriflame/src/index.html",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Call-of-Duty",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/download (3).png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["js", "js-modular", "tailwindcss"],
+    demoUrl: "https://maahyarr.github.io/Call-of-Duty/src/",
+    githubUrl: "https://maahyarr.github.io/Call-of-Duty/src/",
   },
   {
     id: 4,
-    title: "E-commerce Platform",
+    title: "Apple-Watch",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/download (4).png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["html", "css", "scss","flex-grid","js"],
+    demoUrl: "https://maahyarr.github.io/apple/",
+    githubUrl: "https://maahyarr.github.io/apple/",
   },
   {
     id: 5,
-    title: "E-commerce Platform",
+    title: "Dastresi",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/download (5).png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["js", "js-modular", "tailwindcss"],
+    demoUrl: "https://maahyarr.github.io/project-dastresi/",
+    githubUrl: "https://maahyarr.github.io/project-dastresi/",
   },
   {
     id: 6,
-    title: "E-commerce Platform",
+    title: "Svelte-test",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/download.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Svelte", "js", "html","css"],
+    demoUrl: "https://public-alpha-bay.vercel.app/",
+    githubUrl: "https://public-alpha-bay.vercel.app/",
   },
 ];
 
@@ -73,8 +73,7 @@ export default function Projectsection() {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. These are my learning process projects, not real ones.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -132,7 +131,7 @@ export default function Projectsection() {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/maahyarr"
           >
             Check My Github <ArrowRight size={16} />
           </a>

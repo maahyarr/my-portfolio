@@ -61,7 +61,7 @@ export default function ContactSection() {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    mahyar.amini1996@gmail.com
                   </a>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function ContactSection() {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +98 990 574 7949
                   </a>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function ContactSection() {
                 <a href="#" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://x.com/mahyaramini" target="_blank">
                   <Twitter />
                 </a>
                 <a href="#" target="_blank">
